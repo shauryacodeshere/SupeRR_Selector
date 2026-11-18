@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+rr-selector-ui/node_modules/
+
+# Build artifacts
+rr-selector-ui/dist/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Temporary test files
+test*.pdf
+test*.docx
+test*.pkl.gz
+
+# Local env
+.env
+.env.local
